@@ -1,0 +1,6 @@
+javascript:(function(){
+ var nodes = document.getElementById("dim2").querySelectorAll("select"); 
+ for (var i = 0; i < nodes.length; i++) {
+    nodes[i].value = 10
+  }
+})();
